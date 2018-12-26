@@ -7,9 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index
+def input_to_index( input )
+  index = input.chomp.strip.to_i
+  board[index-1] = index
 end
 
-def move
+def move( board, index, player_character=)
 end
 
