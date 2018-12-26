@@ -11,7 +11,7 @@ def input_to_index( input )
   return index = ( input.chomp.strip.to_i ) - 1
 end
 
-def move( board, index, player_character="X")
+def move( board, index, player_character="X" )
   board[index] = player_character
 end
 
