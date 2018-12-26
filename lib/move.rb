@@ -8,8 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index( input )
-  index = input.chomp.strip.to_i
-  board[index-1] = index
+  return index = ( input.chomp.strip.to_i ) - 1
 end
 
 def move( board, index, player_character="X")
